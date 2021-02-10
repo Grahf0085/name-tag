@@ -4,25 +4,31 @@
     <meta charset='utf-8'>
     <title>Made with OSS</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <p class="centered">
+        <label>
+            Your Name:
+            <input id="name-input">
+        </label>
+        <button id="name-change-button">Change It</button>
+    </p>
     
-    <main>
+    <main class="centered">
         <section class = "top">
             <h1>HELLO</h1>
             <h3>my name is</h3>
         </section>
 
         <section class = "myName">
-            <h4>Tucker Hoog</h4>
+            <h4 id ="name-display">Tucker Hoog</h4>
         </section>
 
         <section class = "bottom"></section>
     </main>
     
+    <script type="module" src="app.js"></script>
 </body>
 </html>
 

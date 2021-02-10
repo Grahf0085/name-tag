@@ -51,3 +51,7 @@ h4 {
     position: relative;
     top: 20px;
 }
+
+.centered {
+    text-align: center;
+}
