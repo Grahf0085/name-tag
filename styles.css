@@ -1,0 +1,53 @@
+main {
+    background-color:lightgray;
+    height: 200px;
+    width: 300px;
+    padding: 8px;
+}
+
+.myName {
+    font-family: cursive;
+    color: black;
+    background-color: floralwhite;
+    text-align: center;
+    height: 70px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.top {
+    background-color: firebrick;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    color: white;
+    font-family: ubuntu, 'Times New Roman', Times, serif;
+    height: 75px;
+    margin: 0px;
+}
+
+.bottom {
+    background-color: firebrick;
+    height: 35px;
+    width: 300px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0px;
+}
+
+h3 {
+    font-size:medium;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 3.1em;
+    margin: 0px;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin: 0px;
+    position: relative;
+    top: 20px;
+}
